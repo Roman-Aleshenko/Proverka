@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Practice_5_VVP.cpp" />
     <ClCompile Include="Practice_VVP_4.cpp" />
     <ClCompile Include="Proverka.cpp" />
   </ItemGroup>
