@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 int Number_1()
 {
@@ -79,7 +79,9 @@ int Number_6()
     float A, y;
     printf("\nVvedite chislo A:\n");
     scanf_s("%f", &A);
-    y = pow(A, 3) * pow(A, 4) * pow(A, 1);
+    y = A * A;
+    A = y * y;
+    y = A * A;
     printf("Vozvedem 'A' v stepen 8 : \nOtvet: %f", y);
     return 0;
 }
@@ -91,9 +93,10 @@ int Number_7()
     float A, y, x;
     printf("Vvedite chislo A:\n");
     scanf_s("%f", &A);
-    y = pow(A, 3) * pow(A, 4) * pow(A, 1);
-    x = pow(A, 5) * pow(A, 2) * y;
-    printf("Vozvedem 'A' v stepen 15 : \nOtvet: %f", x);
+    x = A * A * A;
+    y = x * x;
+    A = y * y * x;
+    printf("Vozvedem 'A' v stepen 15 : \nOtvet: %f", A);
     return 0;
 }
 
@@ -109,4 +112,3 @@ int main()
     Number_7();
     return 0;
 }
-*/
