@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 
@@ -50,21 +50,25 @@ int Number_3()
 	return 0;
 }
 
-
 int Number_4()
 {
-	printf("Number_4\n\n");
-	float V1, V2, S, T,s;
+	printf("Number_4_v raznie storoni\n\n");
+	float V1, V2, S, T, s, alf, v1_s, v2_s;
 	printf("Vvedite skorost pervogo i vtorogo avtomobiley:\n");
 	scanf_s("%f\n%f", &V1, &V2);
 	printf("\n\nVvedite iznachalnoe rasstoyanie mejdu avtomobilyami:\n");
 	scanf_s("%f", &s);
 	printf("\n\nVvedite vremya , cheres kotoroe proizvedutsya zameri rasstoyaniya:\n");
 	scanf_s("%f", &T);
-	S = V1 * T + V2 * T + s;
-	printf("\n\nRasstoyanie mejdu avtomopilami = %f",S);
+	printf("\n\nVvedite ugol , pod kotorim razezjayutsya avtomobili: \n");
+	scanf_s("%f", &alf);
+	v1_s = V1 * T;
+	v2_s = V2 * T;
+	S = sqrt((pow(v1_s, 2) + pow(v2_s, 2)) - 2 * v1_s * v2_s * cos(alf));
+	printf("\n\nRasstoyanie mejdu avtomopilami = %f", S);
 	return 0;
 }
+
 
 int Number_5()
 {
@@ -96,11 +100,11 @@ int Number_6()
 
 int main()
 {
-	Number_1();
+	/*Number_1();
 	Number_2();
-	Number_3();
+	Number_3();*/
 	Number_4();
-	Number_5();
-	Number_6();
+	/*Number_5();
+	Number_6();*/
 	return 0;
-}*/
+}
