@@ -145,6 +145,7 @@
     <ClCompile Include="Practice_VVP_7.cpp" />
     <ClCompile Include="Practice_VVP_Lab6.cpp" />
     <ClCompile Include="Proverka.cpp" />
+    <ClCompile Include="VVP_Lab_9.cpp" />
     <ClCompile Include="ОАиП_2-3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
