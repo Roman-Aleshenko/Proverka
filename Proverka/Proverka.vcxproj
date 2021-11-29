@@ -139,16 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab_8_VVP.cpp" />
-    <ClCompile Include="Lab_VVP_11.cpp" />
-    <ClCompile Include="Practice_5_VVP.cpp" />
-    <ClCompile Include="Practice_VVP_4.cpp" />
-    <ClCompile Include="Practice_VVP_7.cpp" />
-    <ClCompile Include="Practice_VVP_Lab6.cpp" />
-    <ClCompile Include="Proverka.cpp" />
-    <ClCompile Include="VVP_Lab_10.cpp" />
-    <ClCompile Include="VVP_Lab_9.cpp" />
+    <ClCompile Include="Lab_VVP_10.cpp" />
+    <ClCompile Include="Lab_VVP_12.cpp" />
+    <ClCompile Include="Lab_VVP_14.cpp" />
     <ClCompile Include="ОАиП_2-3.cpp" />
+    <ClCompile Include="ОАиП_Lab_6-7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
