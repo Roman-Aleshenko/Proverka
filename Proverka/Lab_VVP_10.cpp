@@ -61,12 +61,12 @@ int Number_4()
 	x = A / 10;
 	c2 = x % 10;
 	v3 = A % 10;
-	if ((z1 <= c2 <= v3) == true)
+	if (((z1 < c2) & (c2 < v3)) == true)
 	{
 		printf("\nCifri chisla obrazuyt vozrastayuchuyu posledovatelnost");
 		
 	}
-	if ((z1 >= c2 >= v3) == true)
+	if (((z1 > c2) & (c2 > v3)) == true)
 	{
 		printf("\nCifri chisla obrazuyt ubivayuchuyu posledovatelnost");
 
@@ -90,9 +90,9 @@ int Number_5()
 	{
 		printf("\nChislo chitaetsya odinakovo");
 	}
-	if ((z1 == x2 == c3 == v4) == true)
+	else
 	{
-		printf("\nChislo chitaetsya odinakovo");
+		printf("\nChislo ne podxodit");
 	}
 	return 0;
 }
