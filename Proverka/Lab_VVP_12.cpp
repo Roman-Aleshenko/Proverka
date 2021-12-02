@@ -1,5 +1,5 @@
-/*#include <stdio.h>
-
+#include <stdio.h>
+#include <math.h>
 int Number_1()
 {
 	float a, b, c, d, f, g, i, j, k, l;
@@ -31,10 +31,55 @@ int Number_2()
 	printf("%f", c);
 	return 0;
 }
-
+int Number_3()
+{
+	int N,a,b;
+	printf("Vvedite chislo > 0:\n");
+	scanf_s("\n%d", &N);
+	b = 0;
+	for (a = 1; a<N+1;a+=1)
+	{
+		b = b + 2 * a - 1;
+	}
+	printf("%d",b);
+	return 0;
+}
+int Number_4()
+{
+	int A, a, b,N;
+	printf("Vvedite chislo > 0:\n");
+	printf("A=");
+	scanf_s("\n%d", &A);
+	printf("N=");
+	scanf_s("\n%d", &N);
+	b = 0;
+	for (a = 1; a < N + 1; a++)
+	{
+		b = b + pow(A, a);
+	}
+	b = b + 1;
+	printf("\n\n%d", b);
+	return 0;
+}
+int Number_5()
+{
+	float A, rez = 1;
+	int N,i;
+	printf("Vvedite chislo > 0:\n");
+	printf("A=");
+	scanf_s("\n%f", &A);
+	printf("N=");
+	scanf_s("\n%d", &N);
+	for (i = 1; i <= N;i++)
+	{
+		rez += pow(-A, i);
+	}
+	printf("%f", rez);
+	return 0;
+}
 int main()
 {
-	Number_2();
+	Number_5();
 	return 0;
-}*/
+}
 

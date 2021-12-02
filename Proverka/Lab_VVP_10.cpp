@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int Number_1()
 {
@@ -144,10 +144,10 @@ int main()
 {
 	Number_1();
 	Number_2();
-	Number_3();
+	/*Number_3();
 	Number_4();
 	Number_5();
 	Number_6();
 	Number_7();
 	return 0;
-}
+}*/
