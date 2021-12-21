@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int Number_1()
@@ -118,3 +118,4 @@ int main()
 	Number_6();
 	return 0;
 }
+*/
